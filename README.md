@@ -22,7 +22,7 @@ LLVM_TARGETS
 
 Unfortunately, Gentoo currently forces all LLVM targets to be enabled at build time, which triples LLVM and Clang's compile time. This is a necessay evil due to a bug which causes an issue with reverse dependencies (e.g. Rust) when some targets are disabled. It is possible to disable the unnecessary targets by uncommenting them in /etc/portage/profile/package.use.force, as long as you understand that you'll probably have to build all targets anyway at some point (provided the issue hasn't been fixed by then).
 
-I can only confirm that the packages in the base system and the @world file build perfectly fine with targets disabled by force. 
+I can only confirm that the packages in the base system and the [@world](https://github.com/I-LeCorbeau/gentoo-hardened-clang/blob/main/var/lib/portage/world) file build perfectly fine with targets disabled by force. 
   
 TODO
 ----
