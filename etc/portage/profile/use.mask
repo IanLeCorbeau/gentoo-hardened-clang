@@ -1,0 +1,2 @@
+# Let's disable multilib later.
+#abi_x86_32

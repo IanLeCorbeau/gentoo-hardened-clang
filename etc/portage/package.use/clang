@@ -1,0 +1,2 @@
+sys-devel/clang-runtime sanitize
+sys-libs/compiler-rt-sanitizers clang

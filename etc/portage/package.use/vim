@@ -1,0 +1,4 @@
+# These USE flags are only for the base system.
+# Comment out or remove this file entirely then
+# re-emerge vim again for a more complete version.
+app-editors/vim minimal -crypt
