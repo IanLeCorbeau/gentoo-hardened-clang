@@ -3,4 +3,3 @@ app-crypt/signify
 app-editors/vim
 app-misc/tmux
 app-text/mandoc
-dev-lang/python
